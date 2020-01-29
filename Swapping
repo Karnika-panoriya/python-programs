@@ -1,0 +1,9 @@
+num1=int (input("enter the first number"))
+num2=int (input("enter the sceond number"))
+print(" first number ",num1)
+print(" second number :",num2)
+temp=num1
+num1=num2
+num2=temp
+print("value first afetr swapping",num1)
+print("value second after swapping",num2)
