@@ -1,0 +1,4 @@
+email=input("Enter Email id : ")
+L=email.split("@")
+print("Username : ",L[0])
+print("Domian : ",L[1])
